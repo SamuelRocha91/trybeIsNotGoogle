@@ -1,0 +1,22 @@
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-vv -s --continue-on-collection-errors"
+testpaths = ["tests",]
+accept_xfail = true
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''

@@ -13,7 +13,8 @@ def process(path_file, instance):
           "qtd_linhas": len(document),
           "linhas_do_arquivo": document,
          }
-    return sys.stdout.write(f"{dict}")
+    sys.stdout.write(f"{dict}")
+    return dict
 
 
 def remove(instance):
@@ -26,3 +27,14 @@ def remove(instance):
 
 def file_metadata(instance, position):
     """Aqui irá sua implementação"""
+    if not 0 <= position < len(instance.data):
+        return sys.stderr.write("Posição inválida")
+    document = instance.search(position)
+    with open(document, "r") as file:
+        data = file.read().split('\n')
+        dict = {
+          "nome_do_arquivo": f"{document}",
+          "qtd_linhas": len(data),
+          "linhas_do_arquivo": data,
+         }
+    sys.stdout.write(f"{dict}")

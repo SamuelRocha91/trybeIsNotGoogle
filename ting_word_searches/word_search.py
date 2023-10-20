@@ -4,15 +4,7 @@ def exists_word(word, instance):
     """Aqui irá sua implementação"""
     word_search = []
     for i in range(len(instance.data)):
-        with open(instance.data[i], "r") as file:
-            lines = file.read().split('\n')
-            dict = {
-              "nome_do_arquivo": f"{instance.data[i]}",
-              "qtd_linhas": len(lines),
-              "linhas_do_arquivo": lines,
-             }
-            new_dict = search_in_lines(dict, word)
-            word_search.append(new_dict)
+        word_search.append(search_in_lines(instance, word, i, False))
     if len(word_search) == 1 and not word_search[0]["ocorrencias"]:
         return []
     return word_search
@@ -20,15 +12,30 @@ def exists_word(word, instance):
 
 def search_by_word(word, instance):
     """Aqui irá sua implementação"""
+    word_search = []
+    for i in range(len(instance.data)):
+        word_search.append(search_in_lines(instance, word, i, True))
+    if len(word_search) == 1 and not word_search[0]["ocorrencias"]:
+        return []
+    return word_search
 
 
-def search_in_lines(file, word):
+def search_in_lines(file, word, i, bool):
+    with open(file.data[i], "r") as document:
+        lines = document.read().split('\n')
+        dict = {
+              "nome_do_arquivo": f"{file.data[0]}",
+              "linhas_do_arquivo": lines,
+            }
     occurrences = []
-    for i in range(len(file["linhas_do_arquivo"])):
-        if word in file["linhas_do_arquivo"][i].lower():
-            occurrences.append({"linha": i + 1})
+    for j in range(len(dict["linhas_do_arquivo"])):
+        if word in dict["linhas_do_arquivo"][j].lower() and bool:
+            occurrences.append({"linha": j + 1, "conteudo":
+                                dict["linhas_do_arquivo"][j]})
+        elif word in dict["linhas_do_arquivo"][j].lower():
+            occurrences.append({"linha": j + 1})
     return {
         "palavra": word,
-        "arquivo": file["nome_do_arquivo"],
+        "arquivo": dict["nome_do_arquivo"],
         "ocorrencias": occurrences,
     }

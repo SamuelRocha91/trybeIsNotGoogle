@@ -1,10 +1,10 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<h1>Projeto Trybe is not Google</h1>
+<p>Trata-se de um projeto avaliativo desenvolvido no módulo de Ciências da Computação do curso de Desenvolvimento Web da Trybe. Destacam-se como competências desenvolvidas: </p>
+ <ol>
+  <li>Manipular Pilhas;</li>
+  <li>Manipular Deque;</li>
+  <li>Manipular Nó & Listas Ligadas;</li>
+  <li>Manipular arquivos '.txt';</li>
+</ol>
+<p>A aplicação consiste num sistema gerenciador de arquivos e operações de busca que permitem o mapeamento da ocorrência de dados. </p>
+

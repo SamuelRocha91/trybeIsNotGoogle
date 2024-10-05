@@ -124,6 +124,5 @@ Os testes estão localizados no diretório `tests` e cobrem as funcionalidades p
 -  [Restaurant Orders](https://github.com/SamuelRocha91/restaurantOrders)
 -  [Scripts](https://github.com/SamuelRocha91/scripts)
 -  [Algorithms](https://github.com/SamuelRocha91/Algorithms)
--  [Trybe is not google](https://github.com/SamuelRocha91/trybeIsNotGoogle)
 
 </details>

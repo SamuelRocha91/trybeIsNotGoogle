@@ -10,7 +10,11 @@
 
 
 <details>
-<summary> Sobre o Projeto</summary>
+<summary> 
+  <h2>
+    Sobre o Projeto
+  </h2>
+</summary>
 
 A aplicação consiste em um sistema gerenciador de arquivos e operações de busca que permitem o mapeamento da ocorrência de termos em arquivos de texto. O projeto está dividido em dois módulos principais:
 

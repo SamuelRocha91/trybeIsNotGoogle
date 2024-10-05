@@ -26,7 +26,7 @@ Este projeto **não realiza análise semântica** ou busca por sinônimos.
 </details>
 
 <details>
-<summary>Habilidades Desenvolvidas</summary>
+<summary><h2>Habilidades Desenvolvidas</h2></summary>
 
 Neste projeto, foram exercitadas as seguintes habilidades:
 
@@ -39,7 +39,7 @@ Neste projeto, foram exercitadas as seguintes habilidades:
 </details>
 
 <details>
-<summary>Estrutura do Projeto</summary>
+<summary><h2>Estrutura do Projeto</h2></summary>
 
 O projeto segue a seguinte estrutura de diretórios e arquivos:
 
@@ -77,7 +77,7 @@ O projeto segue a seguinte estrutura de diretórios e arquivos:
 </details>
 
 <details>
-<summary>Como Executar</summary>
+<summary><h2>Como Executar</h2></summary>
 
 ### Pré-requisitos
 
@@ -106,7 +106,7 @@ Antes de começar, certifique-se de ter o Python instalado em sua máquina. Para
 </details>
 
 <details>
-<summary>Testes</summary>
+<summary><h2>Testes</h2></summary>
 
 Para rodar os testes, execute o seguinte comando:
 
@@ -119,7 +119,7 @@ Os testes estão localizados no diretório `tests` e cobrem as funcionalidades p
 </details>
 
 <details>
-<summary>Outros projetos</summary>
+<summary><h2>Outros projetos</h2></summary>
 
 -  [Restaurant Orders](https://github.com/SamuelRocha91/restaurantOrders)
 -  [Scripts](https://github.com/SamuelRocha91/scripts)

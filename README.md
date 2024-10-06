@@ -85,7 +85,7 @@ Antes de começar, certifique-se de ter o Python instalado em sua máquina. Para
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/projeto-trybe-is-not-google.git
+   git clone git@github.com:SamuelRocha91/trybeIsNotGoogle.git
    ```
 
 2. Acesse o diretório do projeto:

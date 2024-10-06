@@ -84,7 +84,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/ваш-юзер/проект-trybe-не-google.git
+   git clone git@github.com:SamuelRocha91/trybeIsNotGoogle.git
    ```
 
 2. Перейдите в каталог проекта:

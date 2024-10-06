@@ -84,7 +84,7 @@ Antes de comenzar, asegúrese de tener Python instalado en su máquina. Para ins
 
 1. Clone el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/proyecto-trybe-no-es-google.git
+   git clone git@github.com:SamuelRocha91/trybeIsNotGoogle.git
    ```
 
 2. Acceda al directorio del proyecto:

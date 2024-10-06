@@ -84,7 +84,7 @@
 
 1. 克隆存储库：
    ```bash
-   git clone https://github.com/your-user/project-trybe-not-google.git
+   git clone git@github.com:SamuelRocha91/trybeIsNotGoogle.git
    ```
 
 2. 进入项目目录：

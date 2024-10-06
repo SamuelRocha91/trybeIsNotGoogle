@@ -84,7 +84,7 @@
 
 1. استنساخ المستودع:
    ```bash
-   git clone https://github.com/your-user/project-trybe-not-google.git
+   git clone git@github.com:SamuelRocha91/trybeIsNotGoogle.git
    ```
 
 2. الوصول إلى دليل المشروع:
